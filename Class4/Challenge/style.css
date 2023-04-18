@@ -1,0 +1,13 @@
+.tabela{
+    width: 5%;
+}
+.peca_esquerda{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    width: 5%;
+}
+.peca_direita{
+    background-color: rgb(7, 7, 7);
+    align-items: center;
+    width: 5%;
+}
