@@ -1,0 +1,30 @@
+#header{
+    border: 1px solid black;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#content{
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+#Navi{
+    margin-left: 120px;
+    margin-right: 160px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.center-content{
+    margin-top: 120px;
+    margin-left: 420px;
+    margin-right: 420px;
+    text-align: center;
+}
+
+#Footer{
+    margin-top: 80px;
+    text-align: center;
+}
