@@ -2,19 +2,19 @@
     display: flex;
     justify-content: center;
     background-color: rgb(99, 47, 55);
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -9px;
 }
-.logo{
+
+.logo {
     margin-right: auto;
     margin-top: 10px;
     margin-left: 80px;
 }
 
-
 .menu_navigation {
-    margin-top:auto;
+    margin-top: auto;
     margin-bottom: 5px;
     text-align: center; /* Altere para center */
     overflow: auto;
@@ -22,57 +22,72 @@
 
 .menu_navigation ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 1;
+    margin: 1;
 }
 
 .menu_navigation li {
     display: flex;
-    align-items: center;
-    margin-right: 200px;
+    align-items: right;
+    margin-right: 6vw; /* Altere para uma unidade relativa */
 }
 
 .menu_navigation p {
-    margin: 0 20px;
-    display: inline;
-    margin-inline-end: 20px;
-    margin-inline-start: 20px;
-    color: white;
+    margin: 0 5px;
+    margin-inline-end: 2vw; /* Altere para uma unidade relativa */
+    margin-inline-start: 2vw; /* Altere para uma unidade relativa */
 }
 
-#Inicio {
-    font-size: large;
-    color: rgb(255, 255, 255);
+.body_site {
+    height: auto;
+    width: 100%; /* Altere para uma unidade relativa */
 }
 
-#Blog {
-    font-size: large;
-    color: rgb(255, 255, 255);
-}
-
-#Galeria {
-    font-size: large;
-    color: rgb(255, 255, 255);
-}
-
-#Contato {
-    font-size: large;
-    color: rgb(255, 255, 255);
-}
 .navbarimgs {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 5vh; /* Altere para uma unidade relativa */
     overflow: hidden;
-    height: 760px;
-    background-color: rgb(0, 0, 0);
-
+    height: 70vh; /* Altere para uma unidade relativa */
+    width: 100%; /* Altere para uma unidade relativa */
+    background-color: rgb(255, 253, 218);
 }
 
-.navbarimgs img{
-    width: 85%;
+.navbarimgs img {
+    width: 75%;
+    height: auto; /* Altere para uma unidade relativa */
 }
 
-.imagem{
-    display: none;
+.main_view{
+    height: 250vh;
+    margin-top: 7vh;
+    margin-inline-start: 12.5vw;
+    margin-inline-end: 12.5vw;
+}
+.articles_field{
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.article {    
+    width: 15vw; /* Defina a largura desejada para cada artigo */
+    background-color: #fff; /* Defina a cor de fundo desejada */
+    height: 18vh;
+    padding: 20px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    margin-right: 1vw;
+}
+.article img{
+    width: 15vw;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#Options {
+    font-size: large;
+    color: rgb(255, 255, 255);
 }
